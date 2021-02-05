@@ -1,0 +1,6 @@
+data/embeddings/
+data/level_one/backup/
+catboost_info/
+__pycache__/
+papers/
+

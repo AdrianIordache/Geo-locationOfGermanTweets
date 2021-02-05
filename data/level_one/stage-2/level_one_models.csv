@@ -1,0 +1,115 @@
+id,model,parameters,oof_error,observation,label,text
+0,LGBM,n_estimators = 30,0.5435,None,latitude,final_text
+0,LGBM,n_estimators = 30,0.725,None,longitude,final_text
+1,LGBM,n_estimators = 30,0.5178,"ngram_range = (1, 7), analyzer = 'char_wb'",latitude,final_text
+1,LGBM,n_estimators = 30,0.6767,"ngram_range = (1, 7), analyzer = 'char_wb'",longitude,final_text
+2,RandomForestRegressor,n_estimators = 30,0.5226,None,latitude,final_text
+2,RandomForestRegressor,n_estimators = 30,0.6651,None,longitude,final_text
+3,RandomForestRegressor,n_estimators = 50,0.5223,None,latitude,final_text
+3,RandomForestRegressor,n_estimators = 50,0.6646,None,longitude,final_text
+4,RandomForestRegressor,n_estimators = 100,0.5221,None,latitude,final_text
+4,RandomForestRegressor,n_estimators = 100,0.6636,None,longitude,final_text
+5,LGBMRegressor,n_estimators = 50,0.5268,None,latitude,final_text
+5,LGBMRegressor,n_estimators = 50,0.6897,None,longitude,final_text
+6,LGBMRegressor,n_estimators = 100,0.5155,None,latitude,final_text
+6,LGBMRegressor,n_estimators = 100,0.6701,None,longitude,final_text
+7,LGBMRegressor,n_estimators = 100,0.4915,"ngram_range = (1, 10), analyzer = 'char_wb'",latitude,final_text
+7,LGBMRegressor,n_estimators = 100,0.6258,"ngram_range = (1, 10), analyzer = 'char_wb'",longitude,final_text
+8,LGBMRegressor,n_estimators = 100,0.4913,"ngram_range = (1, 15), analyzer = 'char_wb'",latitude,final_text
+8,LGBMRegressor,n_estimators = 100,0.6257,"ngram_range = (1, 15), analyzer = 'char_wb'",longitude,final_text
+9,LGBMRegressor,n_estimators = 300,0.4866,"ngram_range = (1, 10), analyzer = 'char_wb'",latitude,final_text
+9,LGBMRegressor,n_estimators = 300,0.6175,"ngram_range = (1, 10), analyzer = 'char_wb'",longitude,final_text
+10,LGBMRegressor,n_estimators = 500,0.4874,"ngram_range = (1, 10), analyzer = 'char_wb'",latitude,final_text
+10,LGBMRegressor,n_estimators = 500,0.6177,"ngram_range = (1, 10), analyzer = 'char_wb'",longitude,final_text
+11,LGBMRegressor,n_estimators = 100,0.5236,"ngram_range = (1, 3), analyzer = 'word'",latitude,final_text
+11,LGBMRegressor,n_estimators = 100,0.6842,"ngram_range = (1, 3), analyzer = 'word'",longitude,final_text
+12,LGBMRegressor,n_estimators = 300,0.5561,"ngram_range = (1, 5), analyzer = 'word'",latitude,final_text
+12,LGBMRegressor,n_estimators = 300,0.753,"ngram_range = (1, 5), analyzer = 'word'",longitude,final_text
+13,Ridge,alpha = 0.1,0.5237,"ngram_range = (1, 5), analyzer = 'char_wb'",latitude,final_text
+13,Ridge,alpha = 0.1,0.6959,"ngram_range = (1, 5), analyzer = 'char_wb'",longitude,final_text
+14,Ridge,alpha = 0.1,0.5249,"ngram_range = (1, 7), analyzer = 'char_wb'",latitude,final_text
+14,Ridge,alpha = 0.1,0.6975,"ngram_range = (1, 7), analyzer = 'char_wb'",longitude,final_text
+15,Ridge,alpha = 0.1,0.5262,"ngram_range = (1, 10), analyzer = 'char_wb'",latitude,final_text
+15,Ridge,alpha = 0.1,0.6990000000000001,"ngram_range = (1, 10), analyzer = 'char_wb'",longitude,final_text
+16,Ridge,alpha = 0.5,0.5026,"ngram_range = (1, 5), analyzer = 'char_wb'",latitude,final_text
+16,Ridge,alpha = 0.5,0.6656,"ngram_range = (1, 5), analyzer = 'char_wb'",longitude,final_text
+17,Ridge,alpha = 0.5,0.5054,"ngram_range = (1, 7), analyzer = 'char_wb'",latitude,final_text
+17,Ridge,alpha = 0.5,0.6693,"ngram_range = (1, 7), analyzer = 'char_wb'",longitude,final_text
+18,Ridge,alpha = 0.5,0.5081,"ngram_range = (1, 10), analyzer = 'char_wb'",latitude,final_text
+18,Ridge,alpha = 0.5,0.6731,"ngram_range = (1, 10), analyzer = 'char_wb'",longitude,final_text
+19,Ridge,alpha = 1,0.5034,"ngram_range = (1, 5), analyzer = 'char_wb'",latitude,final_text
+19,Ridge,alpha = 1,0.6671,"ngram_range = (1, 5), analyzer = 'char_wb'",longitude,final_text
+20,Ridge,alpha = 1,0.506,"ngram_range = (1, 7), analyzer = 'char_wb'",latitude,final_text
+20,Ridge,alpha = 1,0.6706,"ngram_range = (1, 7), analyzer = 'char_wb'",longitude,final_text
+21,Ridge,alpha = 1,0.5087,"ngram_range = (1, 10), analyzer = 'char_wb'",latitude,final_text
+21,Ridge,alpha = 1,0.6744,"ngram_range = (1, 10), analyzer = 'char_wb'",longitude,final_text
+22,SVR,C = 0.5,0.5217,"ngram_range = (1, 10), analyzer = 'char_wb'",latitude,final_text
+22,SVR,C = 0.5,0.7170000000000001,"ngram_range = (1, 10), analyzer = 'char_wb'",longitude,final_text
+23,SVR,C = 0.5,0.5152,"ngram_range = (1, 3), analyzer = 'char_wb'",latitude,final_text
+23,SVR,C = 0.5,0.7019,"ngram_range = (1, 3), analyzer = 'char_wb'",longitude,final_text
+24,SVR,C = 0.1,0.5507,"ngram_range = (1, 3), analyzer = 'char_wb'",latitude,final_text
+24,SVR,C = 0.1,0.7815,"ngram_range = (1, 3), analyzer = 'char_wb'",longitude,final_text
+25,SVR,C = 1,0.51,"ngram_range = (1, 3), analyzer = 'char_wb'",latitude,final_text
+25,SVR,C = 1,0.6873,"ngram_range = (1, 3), analyzer = 'char_wb'",longitude,final_text
+26,XGBRegressor,"learning_rate = 0.1, n_estimators = 500",0.5062,"ngram_range = (1, 5), analyzer = 'char_wb'",latitude,original
+26,XGBRegressor,"learning_rate = 0.1, n_estimators = 500",0.6683,"ngram_range = (1, 5), analyzer = 'char_wb'",longitude,original
+27,XGBRegressor,"learning_rate = 0.1, n_estimators = 1000",0.4993,"ngram_range = (1, 7), analyzer = 'char_wb'",latitude,original
+27,XGBRegressor,"learning_rate = 0.1, n_estimators = 1000",0.6559999999999999,"ngram_range = (1, 7), analyzer = 'char_wb'",longitude,original
+28,XGBRegressor,"learning_rate = 0.1, n_estimators = 1000",0.5002,"ngram_range = (1, 10), analyzer = 'char_wb'",latitude,original
+28,XGBRegressor,"learning_rate = 0.1, n_estimators = 1000",0.6567,"ngram_range = (1, 10), analyzer = 'char_wb'",longitude,original
+29,XGBRegressor,"learning_rate = 0.1, n_estimators = 1000",0.5125,"ngram_range = (1, 3), analyzer = 'char_wb'",latitude,original
+29,XGBRegressor,"learning_rate = 0.1, n_estimators = 1000",0.6796,"ngram_range = (1, 3), analyzer = 'char_wb'",longitude,original
+30,XGBRegressor,"learning_rate = 0.1, n_estimators = 1000",0.5227,"ngram_range = (1, 1), analyzer = 'word'",latitude,original
+30,XGBRegressor,"learning_rate = 0.1, n_estimators = 1000",0.6914,"ngram_range = (1, 1), analyzer = 'word'",longitude,original
+31,XGBRegressor,"learning_rate = 0.1, n_estimators = 1000",0.5059,"ngram_range = (3, 7), analyzer = 'char_wb'",latitude,original
+31,XGBRegressor,"learning_rate = 0.1, n_estimators = 1000",0.6689,"ngram_range = (3, 7), analyzer = 'char_wb'",longitude,original
+32,XGBRegressor,"learning_rate = 0.1, n_estimators = 1000",0.5447,"ngram_range = (1, 3), analyzer = 'word'",latitude,original
+32,XGBRegressor,"learning_rate = 0.1, n_estimators = 1000",0.7398,"ngram_range = (1, 3), analyzer = 'word'",longitude,original
+33,Ridge,alpha = 3,0.5436,"ngram_range = (1, 3), analyzer = 'char_wb'",latitude,original
+33,Ridge,alpha = 3,0.7369,"ngram_range = (1, 3), analyzer = 'char_wb'",longitude,original
+34,Ridge,alpha = 3,0.5248,"ngram_range = (1, 5), analyzer = 'char_wb'",latitude,original
+34,Ridge,alpha = 3,0.701,"ngram_range = (1, 5), analyzer = 'char_wb'",longitude,original
+35,Ridge,alpha = 3,0.528,"ngram_range = (1, 7), analyzer = 'char_wb'",latitude,original
+35,Ridge,alpha = 3,0.7052,"ngram_range = (1, 7), analyzer = 'char_wb'",longitude,original
+36,Ridge,alpha = 3,0.5309,"ngram_range = (1, 10), analyzer = 'char_wb'",latitude,original
+36,Ridge,alpha = 3,0.7094,"ngram_range = (1, 10), analyzer = 'char_wb'",longitude,original
+37,Ridge,alpha = 5,0.5591,"ngram_range = (1, 3), analyzer = 'char_wb'",latitude,original
+37,Ridge,alpha = 5,0.7634,"ngram_range = (1, 3), analyzer = 'char_wb'",longitude,original
+38,Ridge,alpha = 5,0.5421,"ngram_range = (1, 5), analyzer = 'char_wb'",latitude,original
+38,Ridge,alpha = 5,0.7298,"ngram_range = (1, 5), analyzer = 'char_wb'",longitude,original
+39,Ridge,alpha = 5,0.5463,"ngram_range = (1, 7), analyzer = 'char_wb'",latitude,original
+39,Ridge,alpha = 5,0.7357,"ngram_range = (1, 7), analyzer = 'char_wb'",longitude,original
+40,Ridge,alpha = 5,0.5495,"ngram_range = (1, 10), analyzer = 'char_wb'",latitude,original
+40,Ridge,alpha = 5,0.7408,"ngram_range = (1, 10), analyzer = 'char_wb'",longitude,original
+41,LGBMRegressor,n_estimators = 100,0.5479,stacked + transformers (version-7),latitude,embeddings
+41,LGBMRegressor,n_estimators = 100,0.7367,stacked + transformers (version-7),longitude,embeddings
+42,LGBMRegressor,n_estimators = 200,0.5378,stacked + transformers (version-7),latitude,embeddings
+42,LGBMRegressor,n_estimators = 200,0.7193,stacked + transformers (version-7),longitude,embeddings
+43,LGBMRegressor,n_estimators = 300,0.5343,stacked + transformers (version-7),latitude,embeddings
+43,LGBMRegressor,n_estimators = 300,0.7134,stacked + transformers (version-7),longitude,embeddings
+44,SVR,"C = 1, kernel = 'rbf'",0.5844,stacked + transformers (version-7),latitude,embeddings
+44,SVR,"C = 1, kernel = 'rbf'",0.8515,stacked + transformers (version-7),longitude,embeddings
+45,SVR,"C = 5, kernel = 'rbf'",0.556,stacked + transformers (version-7),latitude,embeddings
+45,SVR,"C = 5, kernel = 'rbf'",0.7821,stacked + transformers (version-7),longitude,embeddings
+46,SVR,"C = 10, kernel = 'rbf'",0.5485,stacked + transformers (version-7),latitude,embeddings
+46,SVR,"C = 10, kernel = 'rbf'",0.7628,stacked + transformers (version-7),longitude,embeddings
+47,SVR,"C = 20, kernel = 'rbf'",0.5453,stacked + transformers (version-7),latitude,embeddings
+47,SVR,"C = 20, kernel = 'rbf'",0.7513,stacked + transformers (version-7),longitude,embeddings
+48,SVR,"C = 10, kernel = poly, degree = 2",0.5488,stacked + transformers (version-7),latitude,embeddings
+48,SVR,"C = 10, kernel = poly, degree = 2",0.7644,stacked + transformers (version-7),longitude,embeddings
+49,SVR,"C = 20, kernel = poly, degree = 2",0.545,stacked + transformers (version-7),latitude,embeddings
+49,SVR,"C = 20, kernel = poly, degree = 2",0.752,stacked + transformers (version-7),longitude,embeddings
+50,SVR,"C = 10, kernel = poly, degree = 3",0.5466,stacked + transformers (version-7),latitude,embeddings
+50,SVR,"C = 10, kernel = poly, degree = 3",0.7555,stacked + transformers (version-7),longitude,embeddings
+51,SVR,"C = 20, kernel = poly, degree = 3",0.5464,stacked + transformers (version-7),latitude,embeddings
+51,SVR,"C = 20, kernel = poly, degree = 3",0.7497,stacked + transformers (version-7),longitude,embeddings
+52,SVR,"C = 10, kernel = poly, degree = 4",0.547,stacked + transformers (version-7),latitude,embeddings
+52,SVR,"C = 10, kernel = poly, degree = 4",0.7529,stacked + transformers (version-7),longitude,embeddings
+53,SVR,"C = 20, kernel = poly, degree = 4",0.5499,stacked + transformers (version-7),latitude,embeddings
+53,SVR,"C = 20, kernel = poly, degree = 4",0.7528,stacked + transformers (version-7),longitude,embeddings
+54,Ridge,alpha = 1,0.5509,stacked + transformers (version-7),latitude,embeddings
+54,Ridge,alpha = 1,0.7528,stacked + transformers (version-7),longitude,embeddings
+55,Ridge,alpha = 5,0.5521,stacked + transformers (version-7),latitude,embeddings
+55,Ridge,alpha = 5,0.759,stacked + transformers (version-7),longitude,embeddings
+56,Ridge,alpha = 10,0.5551,stacked + transformers (version-7),latitude,embeddings
+56,Ridge,alpha = 10,0.7664,stacked + transformers (version-7),longitude,embeddings

@@ -1,0 +1,9 @@
+id,train_error_latitude,valid_error_latitude,train_error_longitude,valid_error_longitude,train_error,valid_error,test_error_public,description
+1,0.6267,0.6371,0.9431,0.9317,0.7849,0.7844,0.7106,"Baseline, just encoding (Multilingual Universal Sentence Encoder V4) and linear stacking on level one with LGBM Meta"
+2,0.3212,0.4978,0.3846,0.6214,0.3529,0.5596,0.5333,TfidfVectorizer + Level 1 -> LGBM Added + Meta XGB
+3,0.3471,0.4881,0.2858,0.5931,0.31645,0.5406,0.5152,Same + Level 1: SVR + RF + ExtraTrees
+4,0.2674,0.4906,0.3275,0.6008,0.29745,0.5457,0.5264,Added Lemmatization and German Stopwords
+5,0.2377,0.4955,0.2642,0.6063,0.25095,0.5509,0.5379,Added Encodings (USE v4) to standard input
+6,0.2607,0.4741,0.3086,0.5822,0.2847,0.5281,0.5144,"ngram_range -> (1, 5) and analyzer = 'char_wb'"
+7,0.2394,0.4734,0.2972,0.5706,0.2683,0.5221,0.5181,"removed all emojis, ngram_range -> (1, 7) and analyzer = 'char_wb'"
+8,Nan,0.4644,Nan,0.5644,Nan,0.5144,0.5002,25 * Ensamble Forrest Models + XGB Meta... Baseline 

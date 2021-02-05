@@ -1,0 +1,35 @@
+id,model,train_latitude,valid_latitude,train_longitude,valid_longitude,train_error,valid_error,observation,features,text
+0,LGBMRegressor,0.47101000000000004,0.5123800000000001,0.61215,0.65752,0.5415800000000001,0.58495,"TfidfVectorizer -> Default, n_estimators = 100",101350,final_text
+1,GradientBoostingRegressor,0.57315,0.5776899999999999,0.78183,0.76526,0.6774899999999999,0.67148,TfidfVectorizer -> Default,101350,final_text
+3,GradientBoostingRegressor,0.50262,0.5429999999999999,0.6763399999999999,0.72554,0.58948,0.63427,"TfidfVectorizer -> Default, learning_rate = 0.5",101350,final_text
+4,GradientBoostingRegressor,0.48518999999999995,0.54625,0.6613100000000001,0.73738,0.57325,0.64182,"TfidfVectorizer -> Default, learning_rate = 0.7",101350,final_text
+5,GradientBoostingRegressor,0.5001399999999999,0.54572,0.6624,0.71706,0.58127,0.63139,"TfidfVectorizer -> Default, loss = 'lad', learning_rate = 0.7",101350,final_text
+6,XGBRegressor,0.57694,0.57935,0.7817,0.7649699999999999,0.67932,0.6721600000000001,TfidfVectorizer -> Default,101350,final_text
+7,XGBRegressor,0.50437,0.5476,0.66894,0.71345,0.5866600000000001,0.63053,"TfidfVectorizer -> Default, learning_rate = 0.5",101350,final_text
+8,XGBRegressor,0.48598,0.5458,0.65498,0.72865,0.57048,0.63723,"TfidfVectorizer -> Default, learning_rate = 0.7",101350,final_text
+9,XGBRegressor,0.43828999999999996,0.52652,0.5870000000000001,0.70624,0.51264,0.61638,"TfidfVectorizer -> ngram_range = (1, 5), analyzer = char_wb, learning_rate = 0.7",310388,final_text
+10,LGBMRegressor,0.41471,0.49133000000000004,0.531,0.61154,0.4728600000000001,0.55143,"TfidfVectorizer -> ngram_range = (1, 5), analyzer = 'char_wb', n_estimators = 100",554761,original
+11,LGBMRegressor,0.46153999999999995,0.50267,0.6025699999999999,0.64673,0.53205,0.5747,"TfidfVectorizer  -> Default, n_estimators = 100",100232,original
+12,LGBMRegressor,0.41431,0.49309,0.52983,0.61746,0.47207,0.5552699999999999,"TfidfVectorizer -> ngram_range = (1, 7), analyzer = 'char_wb', n_estimators = 100",1412360,original
+13,LGBMRegressor,0.47101000000000004,0.5123800000000001,0.61215,0.65752,0.5415800000000001,0.58495,"TfidfVectorizer -> Default, n_estimators = 100",101350,final_text
+14,LGBMRegressor,0.41833,0.49384,0.5331199999999999,0.6139,0.47573,0.55387,"TfidfVectorizer -> ngram_range = (1, 5), analyzer = 'char_wb', n_estimators = 100",310388,final_text
+15,LGBMRegressor,0.34700000000000003,0.50542,0.45403000000000004,0.6573,0.40051,0.58136,"TfidfVectorizer -> Default, n_estimators = 500",100232,original
+16,MLPRegressor,0.19851,0.73822,0.07755,0.7018300000000001,0.13803,0.7200300000000001,"TfidfVectorizer -> Default, hidden_layer_sizes = (100, 100, 100, 100)",101350,final_text
+17,MLPRegressor,41.69891,41.27767,9.14522,9.29614,25.42207,25.28691,"TfidfVectorizer -> Default, hidden_layer_sizes = (50, 50, 50)",101350,final_text
+18,"RANSACRegressor, Ridge",0.39784,0.51348,0.53835,0.66595,0.4681,0.58972,"TfidfVectorizer -> ngram_range = (1, 10), analyzer = 'char_wb'",1586574,final_text
+19,XGBRegressor,0.4489800000000001,0.50517,0.58595,0.65412,0.51747,0.57965,"TfidfVectorizer -> ngram_range = (1, 5), analyzer = 'char_wb', learning_rate = 0.1, n_estimators = 500",554761,original
+20,XGBRegressor,0.48618,0.51164,0.63917,0.6647,0.5626800000000001,0.58817,"TfidfVectorizer -> ngram_range = (1, 5), analyzer = 'char_wb', learning_rate = 0.05, n_estimators = 500",554761,original
+21,XGBRegressor,0.5261600000000001,0.5332,0.69693,0.69514,0.61155,0.61417,"TfidfVectorizer -> ngram_range = (1, 5), analyzer = 'char_wb', learning_rate = 0.1, n_estimators = 100",554761,original
+22,XGBRegressor,0.45092,0.52205,0.59815,0.68498,0.52453,0.60352,"TfidfVectorizer -> ngram_range = (1, 5), analyzer = 'char_wb', learning_rate = 0.5, n_estimators = 100",554761,original
+23,XGBRegressor,0.40176999999999996,0.49985,0.5220600000000001,0.6449,0.46192,0.57238,"TfidfVectorizer -> ngram_range = (1, 7), analyzer = 'char_wb', learning_rate = 0.1, n_estimators = 1000",1412360,original
+24,XGBRegressor,0.40379,0.51126,0.5284300000000001,0.67205,0.46611,0.5916600000000001,"TfidfVectorizer -> ngram_range = (1, 3), analyzer = 'char_wb', learning_rate = 0.1, n_estimators = 1000",70417,original
+25,XGBRegressor,0.41426,0.50545,0.54098,0.65409,0.47762,0.57977,"TfidfVectorizer -> ngram_range = (3, 7), analyzer = 'char_wb', learning_rate = 0.1, n_estimators = 1000",1398841,original
+26,XGBRegressor,0.45993,0.51941,0.60109,0.67609,0.53051,0.59775,"TfidfVectorizer -> Default, learning_rate = 0.1, n_estimators = 1000",100232,original
+27,XGBRegressor,0.49422,0.51626,0.68487,0.69935,0.58954,0.6078,"TfidfVectorizer -> Default, NMF 100, learning_rate = 0.1, n_estimators = 1000",100,original
+28,XGBRegressor,0.45746,0.5290600000000001,0.59822,0.69513,0.52784,0.6120899999999999,"TfidfVectorizer -> analyzer = 'word', ngram_range = (1, 2), learning_rate = 0.1, n_estimators = 1000",783283,original
+29,Lasso,0.73336,0.72852,1.1120700000000001,1.0852600000000001,0.9227200000000001,0.90689,TfidfVectorizer -> Default,100232,original
+30,Lasso,0.73336,0.72852,1.11207,1.08526,0.92272,0.90689,"TfidfVectorizer -> Default, alpha = 0.1",100232,original
+31,Lasso,0.73336,0.72852,1.1120700000000001,1.0852600000000001,0.9227200000000001,0.90689,"TfidfVectorizer -> Default, alpha = 100",100232,original
+32,Lasso,0.73336,0.72852,1.11207,1.08526,0.92272,0.90689,"TfidfVectorizer -> analyzer = 'char_wb', ngram_range = (1, 5), alpha = 100",554761,original
+33,Ridge,0.45453000000000005,0.51759,0.61115,0.67975,0.53284,0.59867,"TfidfVectorizer -> analyzer = 'char_wb', ngram_range = (1, 3)",70417,original
+34,Ridge,0.2347,0.58503,0.3234,0.77573,0.27905,0.68038,"TfidfVectorizer -> analyzer = 'char_wb', ngram_range = (1, 3)",70417,original

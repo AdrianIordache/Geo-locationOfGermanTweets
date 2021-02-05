@@ -1,0 +1,19 @@
+id,test_error_public,description
+1,0.492,submission_3 * 0.5 + submission_6 * 0.5
+2,0.4926,submission_3 * 0.4 + submission_6 * 0.6
+3,0.4932,submission_3 * 0.6 + submission_6 * 0.4
+4,0.4915,submission_3 * 0.5 + submission_6 * 0.25 + submission_7 * 0.25
+5,0.4919,submission_3 * 0.5 + submission_6 * 0.2 + submission_7 * 0.3
+6,0.4912,submission_3 * 0.5 + submission_6 * 0.3 + submission_7 * 0.2
+7,0.4896,submission_8 * 0.5 + submission_3 * 0.3 + submission_6 * 0.1 + submission_7 * 0.1
+8,0.4909,submission_8 * 0.5 + submission_3 * 0.5
+9,0.4836,submission_9 * 0.6 + submission_3 * 0.2 + submission_6 * 0.1 + submission_7 * 0.1
+10,0.4795,submission_10 * 0.6 + submission_3 * 0.2 + submission_6 * 0.1 + submission_7 * 0.1
+11,0.4796,submission_10 * 0.5 + submission_9 * 0.1 + submission_3 * 0.2 + submission_6 * 0.1 + submission_7 * 0.1
+12,0.4721,submission_11 * 0.6 + submission_3 * 0.2 + submission_6 * 0.1 + submission_7 * 0.1
+13,0.4705,submission_12 * 0.7 + submission_3 * 0.2 + submission_6 * 0.05 + submission_7 * 0.05
+14,0.4691,submission_13 * 0.7 + submission_3 * 0.2 + submission_6 * 0.05 + submission_7 * 0.05
+15,0.4701,submission_14 * 0.7 + submission_3 * 0.2 + submission_6 * 0.05 + submission_7 * 0.05
+16,Na,Submission_16 * 0.7 + submission_3 * 0.2 + submission_6 * 0.05 + submission_7 * 0.05
+17,0.4711,Submission_16 * 0.7 + submission_3 * 0.1 + submission_6 * 0.1 + submission_7 * 0.1
+18,0.4705,Submission_16 * 0.7 + submission_3 * 0.3

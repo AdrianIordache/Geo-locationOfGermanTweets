@@ -1,0 +1,33 @@
+id,model,parameters,oof_error,feature_selection,label
+0,SVR,C = 1,0.446,"All Features -> 57 Features, MinMaxScaler",latitude
+0,SVR,C = 1,0.534,"All Features -> 57 Features, MinMaxScaler",longitude
+1,SVR,C = 0.1,0.4515,"All Features -> 57 Features, MinMaxScaler",latitude
+1,SVR,C = 0.1,0.5453,"All Features -> 57 Features, MinMaxScaler",longitude
+2,SVR,C = 0.5,0.4467,"All Features -> 57 Features, MinMaxScaler",latitude
+2,SVR,C = 0.5,0.5361,"All Features -> 57 Features, MinMaxScaler",longitude
+3,SVR,C = 5,0.4475,"All Features -> 57 Features, MinMaxScaler",latitude
+3,SVR,C = 5,0.5325,"All Features -> 57 Features, MinMaxScaler",longitude
+4,SVR,C = 10,0.4497,"All Features -> 57 Features, MinMaxScaler",latitude
+4,SVR,C = 10,0.5338,"All Features -> 57 Features, MinMaxScaler",longitude
+5,HistGradientBoostingRegressor,"loss = 'least_absolute_deviation', learning_rate = 0.05, max_iter = 150",0.4488,"All Features -> 57 Features, MinMaxScaler",latitude
+5,HistGradientBoostingRegressor,"loss = 'least_absolute_deviation', learning_rate = 0.05, max_iter = 150",0.536,"All Features -> 57 Features, MinMaxScaler",longitude
+6,HistGradientBoostingRegressor,"loss = 'least_absolute_deviation', learning_rate = 0.1, max_iter = 150",0.4482,"All Features -> 57 Features, MinMaxScaler",latitude
+6,HistGradientBoostingRegressor,"loss = 'least_absolute_deviation', learning_rate = 0.1, max_iter = 150",0.5356,"All Features -> 57 Features, MinMaxScaler",longitude
+7,HistGradientBoostingRegressor,"loss = 'least_absolute_deviation', learning_rate = 0.15, max_iter = 150",0.4497,"All Features -> 57 Features, MinMaxScaler",latitude
+7,HistGradientBoostingRegressor,"loss = 'least_absolute_deviation', learning_rate = 0.15, max_iter = 150",0.5379999999999999,"All Features -> 57 Features, MinMaxScaler",longitude
+8,HistGradientBoostingRegressor,"loss = 'least_absolute_deviation', learning_rate = 0.2, max_iter = 150",0.4518,"All Features -> 57 Features, MinMaxScaler",latitude
+8,HistGradientBoostingRegressor,"loss = 'least_absolute_deviation', learning_rate = 0.2, max_iter = 150",0.54,"All Features -> 57 Features, MinMaxScaler",longitude
+9,CatBoostRegressor,"n_estimators = 900, learning_rate = 0.01, random_state = SEED, silent = True, loss_function = 'MAPE'",0.4511,All Features -> 57 Features,latitude
+9,CatBoostRegressor,"n_estimators = 900, learning_rate = 0.01, random_state = SEED, silent = True, loss_function = 'MAPE'",0.5429,All Features -> 57 Features,longitude
+10,CatBoostRegressor,"n_estimators = 900, learning_rate = 0.03, random_state = SEED, silent = True, loss_function = 'MAPE'",0.4475,All Features -> 57 Features,latitude
+10,CatBoostRegressor,"n_estimators = 900, learning_rate = 0.03, random_state = SEED, silent = True, loss_function = 'MAPE'",0.5347,All Features -> 57 Features,longitude
+11,CatBoostRegressor,"n_estimators = 900, learning_rate = 0.05, random_state = SEED, silent = True, loss_function = 'MAPE'",0.448,All Features -> 57 Features,latitude
+11,CatBoostRegressor,"n_estimators = 900, learning_rate = 0.05, random_state = SEED, silent = True, loss_function = 'MAPE'",0.5336,All Features -> 57 Features,longitude
+12,CatBoostRegressor,"n_estimators = 900, learning_rate = 0.1, random_state = SEED, silent = True, loss_function = 'MAPE'",0.4497,All Features -> 57 Features,latitude
+12,CatBoostRegressor,"n_estimators = 900, learning_rate = 0.1, random_state = SEED, silent = True, loss_function = 'MAPE'",0.5361,All Features -> 57 Features,longitude
+13,CatBoostRegressor,"n_estimators = 900, learning_rate = 0.15, random_state = SEED, silent = True, loss_function = 'MAPE'",0.4538,All Features -> 57 Features,latitude
+13,CatBoostRegressor,"n_estimators = 900, learning_rate = 0.15, random_state = SEED, silent = True, loss_function = 'MAPE'",0.5408,All Features -> 57 Features,longitude
+14,RandomForestRegressor,"n_estimators = 1000, max_features = 0.7, max_samples = 0.7",0.4546,All Features -> 57 Features,latitude
+14,RandomForestRegressor,"n_estimators = 1000, max_features = 0.7, max_samples = 0.7",0.5457,All Features -> 57 Features,longitude
+15,"BaggingRegressor(NuSVR(C = 10, nu = 0.8))"," max_features = 0.8, n_estimators = 10",0.4491,All Features -> 57 Features,latitude
+15,"BaggingRegressor(NuSVR(C = 10, nu = 0.8))"," max_features = 0.8, n_estimators = 10",0.5333,All Features -> 57 Features,longitude

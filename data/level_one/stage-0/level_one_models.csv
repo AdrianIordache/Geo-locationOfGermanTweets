@@ -1,0 +1,53 @@
+id,model,parameters,oof_error,observation,label
+0,LGBM,n_estimators = 30,0.5435,None,latitude
+0,LGBM,n_estimators = 30,0.725,None,longitude
+1,LGBM,n_estimators = 30,0.5178,"ngram_range = (1, 7), analyzer = 'char_wb'",latitude
+1,LGBM,n_estimators = 30,0.6767,"ngram_range = (1, 7), analyzer = 'char_wb'",longitude
+2,RandomForestRegressor,n_estimators = 30,0.5226,None,latitude
+2,RandomForestRegressor,n_estimators = 30,0.6651,None,longitude
+3,RandomForestRegressor,n_estimators = 50,0.5223,None,latitude
+3,RandomForestRegressor,n_estimators = 50,0.6646,None,longitude
+4,RandomForestRegressor,n_estimators = 100,0.5221,None,latitude
+4,RandomForestRegressor,n_estimators = 100,0.6636,None,longitude
+5,LGBMRegressor,n_estimators = 50,0.5268,None,latitude
+5,LGBMRegressor,n_estimators = 50,0.6897,None,longitude
+6,LGBMRegressor,n_estimators = 100,0.5155,None,latitude
+6,LGBMRegressor,n_estimators = 100,0.6701,None,longitude
+7,LGBMRegressor,n_estimators = 100,0.4915,"ngram_range = (1, 10), analyzer = 'char_wb'",latitude
+7,LGBMRegressor,n_estimators = 100,0.6258,"ngram_range = (1, 10), analyzer = 'char_wb'",longitude
+8,LGBMRegressor,n_estimators = 100,0.4913,"ngram_range = (1, 15), analyzer = 'char_wb'",latitude
+8,LGBMRegressor,n_estimators = 100,0.6257,"ngram_range = (1, 15), analyzer = 'char_wb'",longitude
+9,LGBMRegressor,n_estimators = 300,0.4866,"ngram_range = (1, 10), analyzer = 'char_wb'",latitude
+9,LGBMRegressor,n_estimators = 300,0.6175,"ngram_range = (1, 10), analyzer = 'char_wb'",longitude
+10,LGBMRegressor,n_estimators = 500,0.4874,"ngram_range = (1, 10), analyzer = 'char_wb'",latitude
+10,LGBMRegressor,n_estimators = 500,0.6177,"ngram_range = (1, 10), analyzer = 'char_wb'",longitude
+11,LGBMRegressor,n_estimators = 100,0.5236,"ngram_range = (1, 3), analyzer = 'word'",latitude
+11,LGBMRegressor,n_estimators = 100,0.6842,"ngram_range = (1, 3), analyzer = 'word'",longitude
+12,LGBMRegressor,n_estimators = 300,0.5561,"ngram_range = (1, 5), analyzer = 'word'",latitude
+12,LGBMRegressor,n_estimators = 300,0.753,"ngram_range = (1, 5), analyzer = 'word'",longitude
+13,Ridge,alpha = 0.1,0.5237,"ngram_range = (1, 5), analyzer = 'char_wb'",latitude
+13,Ridge,alpha = 0.1,0.6959,"ngram_range = (1, 5), analyzer = 'char_wb'",longitude
+14,Ridge,alpha = 0.1,0.5249,"ngram_range = (1, 7), analyzer = 'char_wb'",latitude
+14,Ridge,alpha = 0.1,0.6975,"ngram_range = (1, 7), analyzer = 'char_wb'",longitude
+15,Ridge,alpha = 0.1,0.5262,"ngram_range = (1, 10), analyzer = 'char_wb'",latitude
+15,Ridge,alpha = 0.1,0.699,"ngram_range = (1, 10), analyzer = 'char_wb'",longitude
+16,Ridge,alpha = 0.5,0.5026,"ngram_range = (1, 5), analyzer = 'char_wb'",latitude
+16,Ridge,alpha = 0.5,0.6656,"ngram_range = (1, 5), analyzer = 'char_wb'",longitude
+17,Ridge,alpha = 0.5,0.5054,"ngram_range = (1, 7), analyzer = 'char_wb'",latitude
+17,Ridge,alpha = 0.5,0.6693,"ngram_range = (1, 7), analyzer = 'char_wb'",longitude
+18,Ridge,alpha = 0.5,0.5081,"ngram_range = (1, 10), analyzer = 'char_wb'",latitude
+18,Ridge,alpha = 0.5,0.6731,"ngram_range = (1, 10), analyzer = 'char_wb'",longitude
+19,Ridge,alpha = 1,0.5034,"ngram_range = (1, 5), analyzer = 'char_wb'",latitude
+19,Ridge,alpha = 1,0.6671,"ngram_range = (1, 5), analyzer = 'char_wb'",longitude
+20,Ridge,alpha = 1,0.506,"ngram_range = (1, 7), analyzer = 'char_wb'",latitude
+20,Ridge,alpha = 1,0.6706,"ngram_range = (1, 7), analyzer = 'char_wb'",longitude
+21,Ridge,alpha = 1,0.5087,"ngram_range = (1, 10), analyzer = 'char_wb'",latitude
+21,Ridge,alpha = 1,0.6744,"ngram_range = (1, 10), analyzer = 'char_wb'",longitude
+22,SVR,C = 0.5,0.5217,"ngram_range = (1, 10), analyzer = 'char_wb'",latitude
+22,SVR,C = 0.5,0.717,"ngram_range = (1, 10), analyzer = 'char_wb'",longitude
+23,SVR,C = 0.5,0.5152,"ngram_range = (1, 3), analyzer = 'char_wb'",latitude
+23,SVR,C = 0.5,0.7019,"ngram_range = (1, 3), analyzer = 'char_wb'",longitude
+24,SVR,C = 0.1,0.5507,"ngram_range = (1, 3), analyzer = 'char_wb'",latitude
+24,SVR,C = 0.1,0.7815,"ngram_range = (1, 3), analyzer = 'char_wb'",longitude
+25,SVR,C = 1,0.51,"ngram_range = (1, 3), analyzer = 'char_wb'",latitude
+25,SVR,C = 1,0.6873,"ngram_range = (1, 3), analyzer = 'char_wb'",longitude
